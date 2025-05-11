@@ -12,63 +12,6 @@
     inset 0 0 280px rgba(255, 255, 255, 0.04);
 }
 
-.footer-addres {
-  font-size: 24px;
-  margin: 0;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-
-  background: linear-gradient(135deg, #ff007f, #00ffe7, #ffff00, #ff00ff, #00ff00, #00b3ff, #ff007f);
-  background-size: 600% 600%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  animation: glowingText 10s ease-in-out infinite, shimmer 5s linear infinite;
-  text-shadow:
-    0 0 5px rgba(255, 255, 255, 0.2),
-    0 0 10px rgba(255, 0, 255, 0.5),
-    0 0 20px rgba(0, 255, 255, 0.5),
-    0 0 40px rgba(255, 255, 0, 0.4);
-  filter: contrast(150%) brightness(120%);
-}
-
-@keyframes glowingText {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes shimmer {
-  0% {
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #f0f,
-      0 0 20px #0ff,
-      0 0 40px #ff0;
-  }
-  50% {
-    text-shadow:
-      0 0 10px #0ff,
-      0 0 20px #f0f,
-      0 0 30px #ff0,
-      0 0 50px #fff;
-  }
-  100% {
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #f0f,
-      0 0 20px #0ff,
-      0 0 40px #ff0;
-}
-}
-
 .made-by {
   font-size: 18px;
   margin-top: 10px;
