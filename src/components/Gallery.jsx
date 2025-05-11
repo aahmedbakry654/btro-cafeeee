@@ -2,22 +2,22 @@ import React, { useState } from "react";
 import "./Gallery.css";
 
 const images = [
-  { src: "public/1.jpg", name: "Espresso" },
-  { src: "public/3.jpg", name: "Hot Coffe" },
-  { src: "public/2.jpg", name: "Ice coffe & Frappe" },
-  { src: "public/4.jpg", name: "Soft Drinks & Mix Soda" },
-  { src: "public/5.jpg", name: "Cocktail Fresh" },
-  { src: "public/6.jpg", name: "Fresh Juice" },
-  { src: "public/7.jpg", name: "Milk Shake" },
-  { src: "public/desert.jpg", name: "Desert" },
-  { src: "public/8.jpg", name: "Bitro وجبات" },
-  { src: "public/9.jpg", name: "Burger Chicken" },
-  { src: "public/10.jpg", name: "Bitro مكرونه" },
-  { src: "public/11.jpg", name: "Crepe-كريب" },
-  { src: "public/12.jpg", name: "Rap Sandwich راب سندوتش" },
-  { src: "public/15.jpg", name: "وجبات مكس" },
-  { src: "public/16.jpg", name: "صواني الصحاب" },
-  { src: "public/shisha.jpg", name: "shisha" },
+  { src: "public/images/1.jpg", name: "Espresso" },
+  { src: "public/images/3.jpg", name: "Hot Coffe" },
+  { src: "public/images/2.jpg", name: "Ice coffe & Frappe" },
+  { src: "public/images/4.jpg", name: "Soft Drinks & Mix Soda" },
+  { src: "public/images/5.jpg", name: "Cocktail Fresh" },
+  { src: "public/images/6.jpg", name: "Fresh Juice" },
+  { src: "public/images/7.jpg", name: "Milk Shake" },
+  { src: "public/images/desert.jpg", name: "Desert" },
+  { src: "public/images/8.jpg", name: "Bitro وجبات" },
+  { src: "public/images/9.jpg", name: "Burger Chicken" },
+  { src: "public/images/10.jpg", name: "Bitro مكرونه" },
+  { src: "public/images/11.jpg", name: "Crepe-كريب" },
+  { src: "public/images/12.jpg", name: "Rap Sandwich راب سندوتش" },
+  { src: "public/images/15.jpg", name: "وجبات مكس" },
+  { src: "public/images/16.jpg", name: "صواني الصحاب" },
+  { src: "public/images/shisha.jpg", name: "shisha" },
 
 ];
 
